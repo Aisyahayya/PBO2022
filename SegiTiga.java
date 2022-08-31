@@ -14,10 +14,6 @@ public class SegiTiga {
 	int tinggi = 4;
 	int sisiMiring = 5;
 	
-	/**
-	 * method untuk menghitung luas segitiga
-	 * @return
-	 */
 	public Double hitungLuas() {
 		Double luas = 0.5 * this.alas * this.tinggi;
 		return luas;
@@ -28,15 +24,6 @@ public class SegiTiga {
                 return keliling;
         }
 	
-//	public Double hitungKeliling() {
-//		// tambahkan source code untuk menghitung keliling segitiga
-//		
-//	}
-	
-	/**
-	 * main method
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		SegiTiga segiTiga = new SegiTiga();
                 SegiTiga Segi3 = new SegiTiga();
@@ -45,7 +32,5 @@ public class SegiTiga {
 		System.out.println("sisi miring : "+segiTiga.sisiMiring);
 		System.out.println("Luas segitiga : "+segiTiga.hitungLuas());
                 System.out.println("Keliling segitiga : "+segiTiga.hitungKeliling());
-		
-		// tambahkan code untuk menampilkan keliling segitiga
 	}
 }
